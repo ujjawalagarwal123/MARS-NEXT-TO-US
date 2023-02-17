@@ -1,0 +1,61 @@
+.post-template .content {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+    margin-top: -100px;
+    background: #fff;
+    position: relative;
+    padding: 40px 50px;
+    font-weight: 300;
+    font-family: Roboto;
+    overflow: hidden;
+}
+
+.content {
+    width: 85%;
+    margin: 0px auto;
+    background: #fff;
+    padding: 40px 0px;
+    margin-top: -100px;
+    position: relative;
+    border-left: 1px solid rgba(0,0,0,0.08);
+    border-right: 1px solid rgba(0,0,0,0.08);
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+main {
+    display: block;
+}
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.2);
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.main-header {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5rem;
+    text-align: center;
+    background: #222 no-repeat center center;
+    background-image: url(../img/default.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    max-height: 100%;
+    letter-spacing: 0.01rem;
+    font-size: 1.7rem;
+    line-height: 1.75em;
+    color:white;
+    font: rgb(0, 0, 0);;
+    background-color: black;
+    
+    text-rendering: geometricPrecision;
+    font-weight: 300;
+}

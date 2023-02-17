@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--pure);                         /*    for colors in variables.css   */
+    background: var(--primary); 
+}
+/*------------------------------------------------------- nav bar section  --------------------------------------------------------------*/
+
+header nav {
+    background-image: url("nav1.png");
+    padding: 20px 40px 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    /*border-bottom: 0.1px solid var(--gray);*/
+    font-size: 20px;
+}
+
+.logo{
+    max-width: 50%;
+    /* margin-left: %; */
+}
+
+
+header nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -30%;
+    padding: 10px;
+    color: white;
+}
+
+
+header nav .nav-right a {
+    text-decoration: none;
+    color: var(--pure);
+    margin-right: 30px;
+    position: relative;
+}
+/* for underline in nav bar */
+
+header nav .nav-right a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 0;
+    height: 2px;
+    background: var(--pure);
+    transition: width .3s ease-in-out;
+}
+
+header nav .nav-right a:hover:after {
+    width: 80%;
+}
+/*---------------- search bar ----------------*/
+
+header nav .nav-right .search > div {
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+header nav .nav-right .search > div input {
+    background: transparent;
+    border: none;
+    outline:none;
+    font-size: 16px;
+    color: #fff;
+}
+
+header nav .nav-right .search > div img {
+    padding-right: 16px;
+}
+/*---------------- search bar ----------------*/
+
+header nav .nav-right .search > div {
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+header nav .nav-right .search > div input {
+    background: transparent;
+    border: none;
+    outline:none;
+    font-size: 16px;
+    color:white(210, 29, 29);
+}
+body{
+    color: whitesmokes;
+}
+
+header nav .nav-right .search > div img {
+    padding-right: 16px;
+}
+
